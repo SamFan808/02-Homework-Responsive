@@ -10,17 +10,18 @@ h1 {
   background-color: lightseagreen;
 }
 
-h2 {
-  font-size: 48;
+.navbar-brand {
+  font-size: 50px;
+}
+
+.nav-link {
+  font-size: 18px;
+}
+
+section h2 {
+  font-size: 52px;
   color: lightcyan;
-}
-
-nav {
-  float: right;
-  background-color: lightseagreen;
-}
-
-section {
+  background-color: rgb(236, 228, 220);
 }
 
 section img {
@@ -31,6 +32,5 @@ section img {
 }
 
 section p {
-  margin: 1%;
   background-color: rgb(236, 228, 220);
 }

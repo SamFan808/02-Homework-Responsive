@@ -1,5 +1,5 @@
 body {
-  background-image: url("/02-Homework-Responsive/test.png");
+  background-image: url("/test.png");
   background-color: lightslategray;
 }
 
@@ -40,4 +40,10 @@ section p {
 
 .form-group {
   margin: 1%;
+}
+
+.portfolio img {
+  width: 350px;
+  height: auto;
+  overflow: hidden;
 }

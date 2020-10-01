@@ -43,6 +43,8 @@ section p {
 .contact {
   background-color: rgb(33, 170, 152);
   margin-top: 15px;
+  padding-top: 15px;
+  padding-left: 15px;
 }
 
 .form-group {

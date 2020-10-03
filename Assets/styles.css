@@ -1,5 +1,6 @@
 body {
-  background-image: url("/forest_background.jpg");
+  background-image: url("/Assets/Images/background-rocks.jpg");
+  background-repeat: repeat-y;
   background-color: lightslategray;
 }
 

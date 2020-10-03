@@ -1,2 +1,7 @@
 # 02-Homework-Responsive
 Homework #2 - Responsive Portfolio
+
+Homework #3 is comprised of 3 pages, each accessed through functional links on the navbar.
+Web pages are responsive to allow for a usable experience on mobile as well as desktop.
+Several Bootstrap styles have also been implemented.
+Semantic HTML is utilized throughout.

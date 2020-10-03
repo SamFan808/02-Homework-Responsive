@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <title>Portfolio - Portfolio</title>
+  <title>Sam Fan - Portfolio</title>
   <!-- bootstrap link -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
@@ -40,61 +40,66 @@
   </nav>
 
   <article class="container-fluid">
-    <article class="row">
-      <article class="col-sm-7 col-xs-12">
+    <article class="row justify-content-left">
+      <article class="col-sm-6">
         <article class="card">
           <article class="card-body">
-            <h2>Portfolio</h2>
-
-            <article class="row">
-              <article class="col">
-                <img class="image-responsive" src="Assets/Images/IMG_1.jpg" alt="portfolio image 1">
+            <article id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+              </ol>
+              <article class="carousel-inner">
+                <article class="carousel-item active">
+                  <img class="d-block w-100" src="/Assets/Images/IMG_1.jpg" alt="First slide">
+                </article>
+                <article class="carousel-item">
+                  <img class="d-block w-100" src="/Assets/Images/IMG_2.jpg" alt="Second slide">
+                </article>
+                <article class="carousel-item">
+                  <img class="d-block w-100" src="/Assets/Images/IMG_3.jpg" alt="Third slide">
+                </article>
+                <article class="carousel-item">
+                  <img class="d-block w-100" src="/Assets/Images/IMG_4.jpg" alt="Fourth slide">
+                </article>
+                <article class="carousel-item">
+                  <img class="d-block w-100" src="/Assets/Images/IMG_5.jpg" alt="Fifth slide">
+                </article>
+                <article class="carousel-item">
+                  <img class="d-block w-100" src="/Assets/Images/IMG_6.jpg" alt="Sixth slide">
+                </article>
+                <article class="carousel-item">
+                  <img class="d-block w-100" src="/Assets/Images/IMG_7.jpg" alt="Seventh slide">
+                </article>
+                <article class="carousel-item">
+                  <img class="d-block w-100" src="/Assets/Images/IMG_8.jpg" alt="Eigth slide">
+                </article>
               </article>
-              <article class="col">
-                <img class="image-responsive" src="Assets/Images/IMG_2.jpg" alt="portfolio image 2">
-              </article>
-            </article>
-            <article class="w-100"></article>
-
-            <article class="row">
-              <article class="col">
-                <img class="image-responsive" src="Assets/Images/IMG_3.jpg" alt="portfolio image 3">
-              </article>
-              <article class="col">
-                <img class="image-responsive" src="Assets/Images/IMG_4.jpg" alt="portfolio image 4">
-              </article>
-              <article class="w-100"></article>
-            </article>
-
-            <article class="row">
-              <article class="col">
-                <img class="image-responsive" src="Assets/Images/IMG_5.jpg" alt="portfolio image 5">
-              </article>
-              <article class="col">
-                <img class="image-responsive" src="Assets/Images/IMG_6.jpg" alt="portfolio image 6">
-              </article>
-              <article class="w-100"></article>
-            </article>
-
-            <article class="row">
-              <article class="col">
-                <img class="image-responsive" src="Assets/Images/IMG_7.jpg" alt="portfolio image 7">
-              </article>
-              <article class="col">
-                <img class="image-responsive" src="Assets/Images/IMG_8.jpg" alt="portfolio image 8">
-              </article>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
             </article>
           </article>
         </article>
       </article>
     </article>
   </article>
-  </article>
+
+
   <!-- footer copyright -->
-  <footer class="sticky-footer">
-    <footer class="container-fluid">
-      <p>&copy; Copyright 2020 Sam Fan</p>
-    </footer>
+  <footer>
+    <p>&copy; Copyright 2020 Sam Fan</p>
   </footer>
 
   <!-- javascript path for bootstrap, leave here -->

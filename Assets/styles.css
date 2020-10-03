@@ -1,6 +1,7 @@
+/* general styling ---------------- */
 body {
   background-image: url("/Assets/Images/background-rocks.jpg");
-  background-repeat: repeat-y;
+
   background-color: lightslategray;
 }
 
@@ -26,11 +27,29 @@ h2 {
   font-size: 18px;
 }
 
-section .card {
+.card {
   background-color: rgb(33, 170, 152);
   margin-top: 15px;
-  margin-left: 15px;
 }
+
+.row {
+  margin-right: 0;
+}
+
+footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 30px;
+  width: 100%;
+  margin-top: 15px;
+  text-align: center;
+  font-size: small;
+  color: rgb(167, 23, 162);
+  background-color: steelblue;
+}
+
+/* about me --------------------*/
 
 section img {
   float: left;
@@ -47,10 +66,10 @@ section p {
   color: whitesmoke;
 }
 
+/* contact ---------------------*/
 .contact {
   background-color: rgb(33, 170, 152);
   margin-top: 15px;
-  margin-left: 15px;
   padding: 15px;
 }
 
@@ -64,35 +83,11 @@ section p {
   margin: 15px;
 }
 
+/* portfolio --------------------*/
+.carousel-indicators {
+  margin-bottom: 0;
+}
+
 article .card {
-  margin-top: 15px;
-  padding-left: 10px;
-  padding-bottom: 50px;
-  background-color: rgb(33, 170, 152);
-}
-/* 
-article img {
-  width: 350px;
-  height: auto;
-  padding-bottom: 30px;
-} */
-
-.image-responsive {
-  width: 350px;
-  height: auto;
-  margin: 0 auto;
-  padding-bottom: 30px;
-}
-
-footer {
-  position: fixed;
-  left: 0px;
-  bottom: 0px;
-  height: 30px;
-  width: 100%;
-  margin-top: 15px;
-  text-align: center;
-  font-size: small;
-  color: rgb(167, 23, 162);
-  background-color: steelblue;
+  margin-left: 15px;
 }

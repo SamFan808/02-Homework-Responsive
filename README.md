@@ -8,3 +8,6 @@ Web pages are responsive to allow for a usable experience on mobile as well as d
 Several Bootstrap styles have also been implemented.
 Semantic HTML is utilized throughout.
 
+
+[Link to Homework 02](https://samfan808.github.io/02-Homework-Responsive/)
+

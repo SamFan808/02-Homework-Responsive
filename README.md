@@ -11,3 +11,6 @@ Semantic HTML is utilized throughout.
 
 [Link to Homework 02](https://samfan808.github.io/02-Homework-Responsive/)
 
+<img src="./Assets/Images/Sam-Fan-About-Me.png" alt="About Me screenshot">
+<img src="./Assets/Images/Sam-Fan-Portfolio.png" alt="About Me screenshot">
+<img src="./Assets/Images/Sam-Fan-Contact.png" alt="About Me screenshot">

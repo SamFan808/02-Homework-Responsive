@@ -6,6 +6,7 @@ body {
 }
 
 h1 {
+  font-size: 35px;
   color: rgb(202, 93, 199);
   padding-right: 55%;
 }
@@ -54,9 +55,9 @@ footer {
 section img {
   float: left;
   width: 350px;
-  margin-left: 1%;
   margin-right: 5%;
   margin-top: 1%;
+  margin-bottom: 5%;
 }
 
 section p {
